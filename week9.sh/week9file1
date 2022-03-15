@@ -1,0 +1,64 @@
+#!/bin/bash
+# author: Desmond muluh    
+# date: 2/2/22
+# description: week 9 trial
+
+echo
+sleep 3
+yum install -y
+echo
+sleep 3
+echo
+yum remove net-tools -y    
+echo
+sleep 3
+echo
+yum install net-tools -y   
+echo
+sleep 3
+echo
+uname -r
+echo
+sleep 3
+echo
+uname -m
+echo
+sleep 2
+echo
+cat /etc/os-release
+echo
+sleep 3
+echo
+cat /etc/passwd
+echo
+sleep 3
+echo
+pwd
+echo
+sleep 3
+echo
+whoami
+echo
+sleep 3
+arch
+echo
+sleep 3
+ifconfig
+echo
+sleep 3
+echo
+getconf LONG_BIT
+echo
+sleep 3
+echo
+docker-compose --version
+echo
+sleep 3
+ll
+echo
+sleep 3
+echo
+date
+echo
+sleep 3
+cal
